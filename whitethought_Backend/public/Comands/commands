@@ -1,0 +1,8 @@
+1) Add User from CLI
+
+php artisan thinker
+App\User::create(['name' => 'Demo', 'email' => 'Demo@gmail.com', 'password' => bcrypt('password')]);
+
+2)Make model and migrate
+
+php artisan make:model -m Chat
